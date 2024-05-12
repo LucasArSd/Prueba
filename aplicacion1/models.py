@@ -1,6 +1,6 @@
 from django.db import models
 
-#acá es donde creo los modelos de las bases de datos
+#acá es donde creo los modelos de las bases de datos, si eso
 
 class Question(models.Model):
     question_text = models.CharField(max_length=200)
@@ -20,4 +20,4 @@ class Usuario(models.Model):
     email = models.EmailField()
 
     def __str__(self): #Por si quiero hacer un print a una instancia Usuario
-        return self.nombre
+        return self.email
