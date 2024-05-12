@@ -4,7 +4,7 @@ from models import Usuario
 # Crear un nuevo usuario
 usuario = Usuario.objects.create(nombre="Ejemplo", email="ejemplo@example.com")
 
-# Consultar todos los usuarios
+# arreglo de usuarios
 usuarios = Usuario.objects.all()
 
 # Mostrar los usuarios
