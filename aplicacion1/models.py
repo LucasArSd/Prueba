@@ -15,7 +15,7 @@ class Choice(models.Model):
 
 #pruebas
 
-class User(models.Model):
+class Usuario(models.Model):
     nombre = models.CharField(max_length=100)
     email = models.EmailField()
 
