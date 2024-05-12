@@ -20,4 +20,4 @@ class Usuario(models.Model):
     email = models.EmailField()
 
     def __str__(self): #Por si quiero hacer un print a una instancia Usuario
-        return self.nombre
+        return self.email
